@@ -1,0 +1,11 @@
+for word in $(cat listaNome.txt)
+ do
+    
+ if [ $word = "Marcel" ]; then
+         echo "Encontrei o $word"
+else
+         echo "O nome e  $word"
+         let a=$a+1
+ fi
+ done
+
